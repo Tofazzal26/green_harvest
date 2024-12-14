@@ -18,11 +18,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" data-theme="light">
-      <body className={`${bebasNue.className}`}>
+      <body className={`${bebasNue.className} px-4 md:px-0`}>
         <Header />
-        <div className="md:w-[1780px] w-[400px] mx-auto px-4 md:px-0">
-          {children}
-        </div>
+        <div className="md:w-[1780px] w-[400px] mx-auto">{children}</div>
       </body>
     </html>
   );
