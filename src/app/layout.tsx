@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en" data-theme="light">
       <body className={`${bebasNue.className}`}>
         <Header />
-        {children}
+        <div className="md:w-[1780px] w-[400px] mx-auto px-4 md:px-0">
+          {children}
+        </div>
       </body>
     </html>
   );
