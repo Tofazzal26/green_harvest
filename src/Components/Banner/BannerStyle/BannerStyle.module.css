@@ -1,0 +1,10 @@
+.bannerStyle:hover {
+  transition: 0.3s;
+  background-color: white;
+  color: black;
+}
+
+.bannerStyleBtn:hover {
+  transition: 0.3s;
+  background-color: #dbaf02;
+}

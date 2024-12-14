@@ -5,7 +5,7 @@ import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
 
 const Header: React.FC = () => {
   return (
-    <div className=" py-3">
+    <div className="py-4">
       <div className="md:w-[1780px] w-[380px] mx-auto">
         <div className="flex justify-between items-center">
           <div>
