@@ -25,6 +25,31 @@ const Banner: React.FC = () => {
           </div>
         </div>
       </div>
+      <div className="flex items-center md:flex-row flex-col gap-4 md:gap-8 my-4 md:my-8">
+        <div className={BannerStyle.imageParent}>
+          <div
+            className={` ${BannerStyle.cardAnimation} relative md:w-[865px] md:h-[485px] w-[380px] h-[300px] text-white  bg-cover bg-no-repeat bg-center bg-[url('/FolkTwo.jpg')]`}
+          >
+            <div className="inset-0 bg-gray-800 absolute opacity-50">
+              <div className="flex justify-center items-center  md:translate-y-[230px] translate-y-[140px]">
+                <h2 className="text-[35px]">Automation</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={BannerStyle.imageParent}>
+          <div
+            className={` ${BannerStyle.cardAnimation} relative md:w-[890px] md:h-[485px] w-[380px] h-[300px] text-white  bg-cover bg-no-repeat bg-center bg-[url('/Folk.png')]`}
+          >
+            <div className="inset-0 bg-gray-800 absolute opacity-50">
+              <div className="flex justify-center items-center  md:translate-y-[230px] translate-y-[140px]">
+                <h2 className="text-[35px]">Hydroponics</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
