@@ -16,10 +16,10 @@ import Brand from "./BrandStyle/Brand.module.css";
 
 const BrandSlider: React.FC = () => {
   return (
-    <div className="md:my-[100px]">
+    <div className="md:my-[80px]">
       <div className="text-center">
         <h2 className="text-lg md:text-xl text-gray-600">Grow Naturally</h2>
-        <h2 className="text-[30px] md:text-[55px] md:leading-[60px] mx-auto md:mt-2 mb-3 md:mb-[60px] md:w-[450px]">
+        <h2 className="text-[30px] md:text-[55px] md:leading-[60px] mx-auto md:mt-2 mb-3 md:mb-[40px] md:w-[450px]">
           Choose What's Perfect For Your Field
         </h2>
       </div>
