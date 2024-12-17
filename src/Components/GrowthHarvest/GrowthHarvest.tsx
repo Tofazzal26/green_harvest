@@ -27,7 +27,7 @@ const GrowthHarvest: React.FC = () => {
           </div>
         </div>
         <div className="md:ml-0 ml-8">
-          <button className="bg-[#60a145] flex text-base rounded-full pt-[6px] pb-1 items-start px-6 gap-1 text-white">
+          <button className="bg-[#60a145] flex hover:bg-[#518a38] transition-all text-base rounded-full pt-[6px] pb-1 items-start px-6 gap-1 text-white">
             {" "}
             <Leaf size={20} strokeWidth={2} /> who we are
           </button>
@@ -41,7 +41,12 @@ const GrowthHarvest: React.FC = () => {
           </p>
           <div className="flex items-center md:flex-row flex-col justify-between md:mt-8">
             <div>
-              <Fence size={70} strokeWidth={1} color="#527d4a" />
+              <Fence
+                size={70}
+                strokeWidth={1}
+                color="#527d4a"
+                className="hover:scale-x-105 transition-all"
+              />
               {/* <Image src={"/gate.png"} width={100} height={110} alt="gate" /> */}
               <h2 className="text-[20px] md:text-[25px] mt-2 md:mt-5">
                 Eco Farms Worldwide
@@ -52,7 +57,13 @@ const GrowthHarvest: React.FC = () => {
               </p>
             </div>
             <div>
-              <Image src={"/machine.png"} width={90} height={90} alt="gate" />
+              <Image
+                src={"/machine.png"}
+                width={90}
+                height={90}
+                alt="gate"
+                className="hover:scale-y-105 transition-all"
+              />
               <h2 className="text-[20px] md:text-[25px] mt-2 md:mt-4">
                 Special Equipment
               </h2>

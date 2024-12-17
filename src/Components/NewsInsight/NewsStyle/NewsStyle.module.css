@@ -1,0 +1,13 @@
+.imageAnimation:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.imageAnimation {
+  transition: transform 0.5s ease-in-out;
+}
+
+.imageParent {
+  transition: transform 0.5s ease-in-out;
+  overflow: hidden;
+}

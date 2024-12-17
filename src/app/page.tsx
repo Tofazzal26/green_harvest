@@ -1,6 +1,8 @@
 import Banner from "@/Components/Banner/Banner";
 import BrandSlider from "@/Components/BrandSlider/BrandSlider";
+import ClientBrand from "@/Components/ClientBrand/ClientBrand";
 import GrowthHarvest from "@/Components/GrowthHarvest/GrowthHarvest";
+import NewsInsight from "@/Components/NewsInsight/NewsInsight";
 import OurBenefits from "@/Components/OurBenefits/OurBenefits";
 import Image from "next/image";
 
@@ -11,6 +13,8 @@ export default function Home() {
       <BrandSlider />
       <GrowthHarvest />
       <OurBenefits />
+      <NewsInsight />
+      <ClientBrand />
     </div>
   );
 }
