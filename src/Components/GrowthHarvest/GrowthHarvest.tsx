@@ -1,3 +1,4 @@
+"use client";
 import { Fence, Leaf } from "lucide-react";
 import Image from "next/image";
 

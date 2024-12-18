@@ -1,3 +1,4 @@
+"use client";
 import { Menu, Search, ShoppingBag } from "lucide-react";
 import Image from "next/image";
 import HeaderStyle from "./HeaderStyle/HeaderStyle.module.css";
@@ -9,9 +10,9 @@ const Header: React.FC = () => {
       <div className="md:w-[1780px] w-[380px] mx-auto">
         <div className="flex justify-between items-center">
           <div>
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-2 items-center cursor-pointer">
               <Image src={"/logotwo.png"} width={50} height={50} alt="logo" />
-              <h2 className="text-[30px] md:text-[40px] mt-2">
+              <h2 className="text-[30px] md:text-[40px] mt-2 ">
                 <span className="text-[#60a145]">Green</span>Harvest
               </h2>
             </div>

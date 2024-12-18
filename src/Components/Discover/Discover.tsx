@@ -1,6 +1,7 @@
+"use client";
 import { ArrowUpRight } from "lucide-react";
 
-const Discover = () => {
+const Discover: React.FC = () => {
   return (
     <div className="my-10">
       <div className="relative md:w-full md:h-[270px] h-[400px] bg-cover bg-no-repeat bg-center bg-[url('/rice.jpg')] rounded-[30px]">

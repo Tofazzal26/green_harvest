@@ -1,3 +1,4 @@
+"use client";
 import { ArrowUpRight, Clock, User } from "lucide-react";
 import Image from "next/image";
 import NewsStyle from "./NewsStyle/NewsStyle.module.css";
