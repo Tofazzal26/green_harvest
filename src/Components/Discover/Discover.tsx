@@ -1,5 +1,6 @@
 "use client";
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 
 const Discover: React.FC = () => {
   return (
@@ -8,7 +9,8 @@ const Discover: React.FC = () => {
         <div className="bg-gray-900 absolute inset-0 rounded-[30px] bg-opacity-40">
           <div className="flex md:flex-row flex-col justify-between md:px-[80px] items-center md:translate-y-[60px]">
             <div className="flex md:flex-row flex-col items-center gap-2">
-              <img src="/tree.png" alt="" />
+              <Image src="/tree.png" height={150} width={150} alt="tree" />
+
               <h2 className="text-[30px] text-center md:text-start md:text-[50px] md:w-[600px] text-white md:leading-[60px]">
                 We’re popular leader in agriculture market globally
               </h2>

@@ -6,7 +6,6 @@ import Discover from "@/Components/Discover/Discover";
 import GrowthHarvest from "@/Components/GrowthHarvest/GrowthHarvest";
 import NewsInsight from "@/Components/NewsInsight/NewsInsight";
 import OurBenefits from "@/Components/OurBenefits/OurBenefits";
-import Image from "next/image";
 
 export default function Home() {
   return (

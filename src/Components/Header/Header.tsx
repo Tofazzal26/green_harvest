@@ -3,6 +3,7 @@ import { Menu, Search, ShoppingBag } from "lucide-react";
 import Image from "next/image";
 import HeaderStyle from "./HeaderStyle/HeaderStyle.module.css";
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
@@ -68,11 +69,21 @@ const Header: React.FC = () => {
                       <Menu size={28} />
                     </PopoverButton>
                     <PopoverPanel anchor="bottom" className="flex flex-col">
-                      <a href="/">Home</a>
-                      <a href="/pages">Pages</a>
-                      <a href="/portfolio">Portfolio</a>
-                      <a href="/blog">Blog</a>
-                      <a href="/shop">Shop</a>
+                      <span>
+                        <Link href="/">Home</Link>{" "}
+                      </span>
+                      <span>
+                        <Link href="/pages">Pages</Link>
+                      </span>
+                      <span>
+                        <Link href="/portfolio">Portfolio</Link>
+                      </span>
+                      <span>
+                        <Link href="/blog">Blog</Link>
+                      </span>
+                      <span>
+                        <Link href="/shop">Shop</Link>
+                      </span>
                     </PopoverPanel>
                   </Popover>
                 </li>
