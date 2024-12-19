@@ -4,7 +4,7 @@ GreenHarvest is a comprehensive agriculture-focused web application designed to 
 
 The app serves as a one-stop solution for managing agricultural products, keeping track of farming activities, and learning more about agricultural techniques. Whether you're a farmer, vendor, or consumer, GreenHarvest aims to improve your agricultural experience by providing a smooth, responsive, and efficient platform.
 
-## Live Link --> [Orfarm-Grocery](https://green-harvest-ten.vercel.app)
+## Live Link --> [GreenHarvest](https://green-harvest-ten.vercel.app)
 
 ## Characteristics
 
