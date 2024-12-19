@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import Banner from "@/Components/Banner/Banner";
 import BrandSlider from "@/Components/BrandSlider/BrandSlider";
 import ClientBrand from "@/Components/ClientBrand/ClientBrand";
