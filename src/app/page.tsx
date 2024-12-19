@@ -10,6 +10,7 @@ import OurBenefits from "@/Components/OurBenefits/OurBenefits";
 export default function Home() {
   return (
     <div>
+      {/* this is my home side section start */}
       <Banner />
       <BrandSlider />
       <GrowthHarvest />
@@ -17,6 +18,7 @@ export default function Home() {
       <NewsInsight />
       <ClientBrand />
       <Discover />
+      {/* this is my home side section start */}
     </div>
   );
 }
